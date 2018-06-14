@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Start</title>
+  <!--stylesheet-->
+  <link rel="stylesheet" type="text/css" href="./assests/css/style.css">
+
+  <!--bootstrap-->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+    crossorigin="anonymous">
+</head>
+
+<body>
+  <!--start button-->
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <center>
+          <a href="#selectCharacter">
+            <button class="btn btn-warning" id="start">START GAME</button>
+          </a>
+        </center>
+      </div>
+    </div>
+  </div>
+  <!--start button end-->
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <hr id="line">
+  <!--select character-->
+  <div class="container border">
+    <!--second row-->
+    <br>
+    <div class="row">
+      <div class="col-md-12">
+        <center>
+          <p id="selectCharacter">PLEASE SELECT YOUR CHARACTER</p>
+        </center>
+        <br>
+      </div>
+    </div>
+    <!--third row-->
+    <div class="row">
+      <div class="col-md-3">
+        <span class="character-image" id="obi-wan-kenobi-character">
+          <p>Obi-Wan Kenobi</p>
+          <a href="#chosen-characters">
+            <img src="./assests/images/obi-wan-kenobi.jpeg" alt="Obi-Wan Kenobi Character" class="obi-wan-kenobi-image" width=100% height=50%>
+          </a>
+          <p class="health">120</p>
+        </span>
+      </div>
+      <div class="col-md-3">
+        <span class="character-image" id="luke-skywalker-character">
+          <p>Luke Skywalker</p>
+          <a href="#chosen-characters">
+            <img src="./assests/images/luke-skywalker.jpeg" alt="Luke Skywalker Character" class="luke-skywalker-image" width=100% height=50%>
+          </a>
+          <p class="health">110</p>
+        </span>
+      </div>
+      <div class="col-md-3">
+        <span class="character-image" id="darth-vader-character">
+          <p>Darth Vader</p>
+          <a href="#chosen-characters">
+            <img src="./assests/images/darth-vader.jpeg" alt="Darth Vader Character" class="darth-vader-image" width=70% height=50%>
+          </a>
+          <p class="health">130</p>
+        </span>
+      </div>
+      <div class="col-md-3">
+        <span class="character-image" id="darth-maul-character">
+          <p>Darth Maul</p>
+          <a href="#chosen-characters">
+            <img src="./assests/images/dart-maul2.jpeg" alt="Darth Maul Character" class="darth-maul-image" width=70% height=50%>
+          </a>
+          <p class="health">180</p>
+        </span>
+      </div>
+    </div>
+    <!--select character end-->
+  </div>
+  <hr id="line">
+  <br>
+  <br>
+  <div class="container">
+      <h2>Your Character</h2>
+      health:<span id="health"></span>
+    <div class="row">
+      <!-- Your chosen character -->
+      <div class="col-md-8" id="chosen-characters">
+      </div>
+       <!-- attack button -->
+      <div class="col-md-4">
+          <p class="text-center attack-btn">Be Caution of Counter Attacks!!! Opponents will attack back.</p>
+      </div>
+      <!-- End your chosen character--> 
+    </div>
+    <hr id="line">
+    <h2 id="enemyHeader">Your Enemies</h2>
+    <div class="row">
+      <!-- Your enemies-->
+      <div class="col-md-4" id="chosen-enemy-1">
+          <button class="btn btn-danger" id="leftCharac">Attack Enemy</button>
+          health:<span id="health-1"></span>
+      </div>
+      <div class="col-md-4" id="chosen-enemy-2">
+          <button class="btn btn-primary" id="middleCharac">Attack Enemy</button>
+          health:<span id="health-2"></span>
+      </div>
+      <div class="col-md-4" id="chosen-enemy-3">
+          <button class="btn btn-success" id="rightCharac">Attack Enemy</button>
+          health:<span id="health-3"></span>
+      </div>
+      <!-- End of your enemy-->
+    </div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
+  <!--javascript-->
+  <script src="./assests/javascript/script.js"></script>
+</body>
+
+</html>
