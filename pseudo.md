@@ -5,3 +5,4 @@
   * display your enemies
   * display health
 2. Phase two: attack
+  * update health decrement
