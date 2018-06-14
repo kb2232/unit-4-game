@@ -1,0 +1,54 @@
+#start {
+  padding: 50px 100px 50px 100px;
+  margin: 200px 0px 0px 0px;
+  color: red;
+  background: greenyellow;
+}
+.attack-btn {
+  margin: 50px 0px 0px 0px;
+}
+#line {
+  margin: 100px 0px 0px 0px;
+  background: red;
+}
+.border {
+  margin: 200px 0px 100px 0px;
+}
+#selectCharacter {
+  padding: 50px 100px 50px 100px;
+  margin:  0px 100px 0px 100px;
+  background: yellowgreen;
+  color: red;
+}
+.character-image {
+	display: inline-block;
+  height: 145px;
+	padding: 0px 20px 0px 20px;
+	margin: 0px 2px 0px 2px;
+	background-color: white;
+	border: solid;
+	border-color: green;
+}
+.character-image p {
+	text-align: center;
+	margin: 0px 2px 0px 2px;
+}
+#enemyHeader {
+  text-align: center;
+}
+.enemy-image {
+  display: inline-block;
+  height: 100px;
+  width: 100px;
+}
+#chosen-character h2 {
+	font-size: 2em;
+  color: #485bf0;
+  padding: 50px 100px 50px 100px;
+  margin: 150px 0px 0px 0px;
+}
+
+.chosen-character {
+	border-color: #dd48f0;
+	background-color: #5bf048;
+}
